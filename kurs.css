@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+    box-sizing: border-box;
+    text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+body {
+	margin: 0;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.row:before, 
+.row:after {
+    content:"";
+    display: table ;
+    clear:both;
+ }
+ [class*="col-"] {
+    width: 100%;
+    
+    padding: 12px; 
+	float:left;
+}
+.col-1 {
+	width: 8.33%;
+	}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-20 {width: 20%;}
+.col-40 {width: 40%;}
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%;}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+.col-offset-12 {margin-left: 100%;}
+
+header>nav>ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	padding: 7px 10px;
+	
+}
+header > nav ul > li {
+  display:inline-block;
+}
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+header>nav>a>img {
+	padding: 10px 0;
+	float: left;
+}
+header>nav>ul>li>a {
+	line-height: 50px;
+	display: block;
+	font-size: 16px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 600;
+	color: #fff;
+	padding: 0 10px;
+}
+header {
+	    background: rgb(255, 108, 58);
+		height: 62px;
+}
+header img:hover{
+	cursor: pointer;
+}
+header>nav>ul>li>a:hover {
+	color: rgba(0,0,0,.7);
+	font-size: 18px;
+	-webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+
+header>nav>ul>li>a:focus {
+	color: rgba(0,0,0,.7);
+}
+
+.hero {
+   	background-image: url(https://zapodaj.net/images/5b0aa4e01b5e0.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.strefa_kodera {
+	float: right;
+}
+.slogan-txt {
+	color: white;
+	padding-bottom: 10px;
+}
+
+.slogan-txt p{
+    text-shadow: 2px 2px #000;
+}
+.strefa_kodera a {
+	font-size: 12px;
+	line-height: 50px;
+}
+.shadow1{
+	text-shadow: 2px 2px #000;
+}
+.strefa_kodera a:hover{
+	font-size: 15px;
+	background: #0275d8;
+	color: white;
+	border-radius: 5px;
+	-webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+}
+.slogan h1 {
+	font-size: 40px;
+    font-weight: 700;
+	margin: 0;
+	color: white;
+	text-align: center;
+	padding-top: 250px;
+	text-shadow: 2px 2px #000;
+	
+}
+.btn {
+    color: #fff;
+    background-color: #ff6c3a;
+    border-radius: 3px;
+    font-size: 18px;
+	display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+.btn:hover {
+    background-color: #0275d8;
+    color: white;
+}
+.slogan-txt {
+	text-align: center;
+	
+	
+}
+.courses p {
+	color: #373a3c;
+}
+.courses {
+	padding-bottom: 50px;
+	padding-top: 40px;
+}
+.courses-modul{
+	margin-bottom: 48px;
+}
+.orange-txt {
+	color: #ff6c3a;
+}
+.btn2 {
+    color: #373a3c;
+    border-radius: 24px;
+    font-size: 18px;
+	display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 1px solid #373a3c;;
+}
+.btn2:hover {
+	background: #ccc;
+	color: white;
+}
+.border-class {
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: 5px;
+	height: 161px;
+	word-break: break-word;
+}
+.line {
+		margin-bottom: 10px;
+		margin-top: 10px;
+	    border-bottom: 1px solid #e0e0e0;
+		width: 100%;
+}
+.social  ul li{
+	display: inline-block;
+}
+.fa.social-icon2 {
+	line-height: 40px;
+}
+.fa.social-icon2:hover {
+	color: white;
+	border-color: white;
+}
+
+.social-icon2{
+	color: #ff6c3a;
+	padding: 0 10px;
+	cursor: pointer;
+	font-size: 20px;
+	height: 40px;
+    line-height: 40px;
+    width: 40px;
+	border: 2px solid #ff6c3a;
+    border-radius: 50% 50%;
+	margin: 5px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;   	
+	text-align: center;
+}
+footer {
+	min-height: 200px;
+	background: #12213f;
+	padding-top: 50px;
+    padding-bottom: 40px;
+	text-align: center;
+	color: white;
+	word-break: break-word; /*linia łamana */
+}
+footer ul {
+	    list-style-type: none;
+		color: rgb(255, 108, 58);
+		line-height: 24px;
+		padding: 0;
+}
+footer a {
+	color: rgb(255, 108, 58);
+}
+.programmer {
+	padding-top: 50px;
+    padding-bottom: 50px;
+	background: white;
+	
+}
+.programmer2 {
+	margin-top: 30px;
+    margin-bottom: 30px;
+	background: white;
+}
+.course-choice {
+	margin-top: 30px;
+    margin-bottom: 30px;
+	background: white;
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+.border-class2 {
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: 5px;
+	
+	word-break: break-word;
+}
+.btn3 {
+    color: #fff;
+    background-color: #ff6c3a;
+    border-radius: 3px;
+    font-size: 18px;
+	display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+	text-align: center;
+	
+}
+.btn3:hover {
+    background-color: #0275d8;
+    color: white;
+}
+.footer .box ul li,
+.footer .box h3 {
+	text-align: left;
+	padding: 0;
+}
+.box {
+	display: inline-block;
+}
+.wrapper {
+	background-image: url('https://zapodaj.net/images/742b8afaf4583.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+	height: 100%;
+    max-width: 720px;
+    min-height: 350px;
+	position: relative;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+.box2 h3 {
+	padding: 0;
+	
+}
+.box2 {
+	position: absolute;
+	top: 128px;
+	right: 20px;
+	transform: rotate(-45deg);
+}
+.strefa2 {
+	min-height: 300px;
+	padding-bottom: 40px;
+}
+.nag {
+	padding-top: 100px;
+	color: rgb(255, 108, 58);
+}
+.programmer h3 {
+	color: rgb(255, 108, 58);
+}
+.programmer2 h3 {
+	color: rgb(255, 108, 58);
+}
+.course-choice h3 {
+	color: rgb(255, 108, 58);
+}
+.strefa2 .row {
+	padding: 0 100px;
+}
+.strefa2 img {
+	border-radius: 0px 137px 9px 121px;
+	-moz-border-radius: 0px 137px 9px 121px;
+    -webkit-border-radius: 0px 137px 9px 121px;
+	padding: 5px;
+	border: 2px dotted #333;
+	-webkit-box-shadow: 5px 4px 16px 0px rgba(234, 133, 41, 0.8);
+	-moz-box-shadow:    5px 4px 16px 0px rgba(234, 133, 41, 0.8);
+	box-shadow:         5px 4px 16px 0px rgba(234, 133, 41, 0.8);
+}
+.strefa2 p {
+    text-align: justify;
+}
+.mentor {
+	background: #eee;
+	border-radius: 3px;
+	margin: 30px;
+}
+.mentor h3 {
+	color: rgb(255, 108, 58);
+}
+@media (max-width: 1023px) {
+	
+	header {
+		height: auto;
+	}
+	header>nav>a>img {
+		float: none;	
+		display: block;
+		margin: 0 auto;
+	}
+	header > nav ul > li {
+		display: block;
+	}
+	header > nav ul > li:hover {
+		font-size: 15px;
+		background: #0275d8;
+		color: white;
+		border-radius: 5px;
+		-webkit-transition-duration: 0.3s; /* Safari */
+		transition-duration: 0.3s;
+	}
+	header>nav>ul {
+		float: none;
+	}
+	.strefa_kodera {
+		float: none;
+		margin: 0 auto;
+	}
+	.strefa2 [class*="col-"] {
+		display: block;
+	}
+	.courses .col-6 {
+		width: 100%;
+		display: block;
+	}
+}
